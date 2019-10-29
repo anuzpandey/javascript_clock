@@ -114,70 +114,70 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin: auto;
-  }
-  .text-effect span {
-    color: transparent;
-    font-size: 36px;
-    text-shadow: 0 0 2px rgba(204, 208, 212, 1), 0 15px 25px rgba(0, 0, 0, 0.9),
-      0 -2px 3px rgba(31, 69, 236, 0.1), 0 -5px 10px rgba(255, 255, 255, 0.5),
-      0 5px 10px rgba(30, 28, 177, 0.3), 0 3px 4px rgba(75, 92, 248, 0.2),
-      0 0 20px rgba(81, 79, 228, 0.45);
-    display: inline-block;
-    animation: animate 1s ease-in-out infinite alternate;
-  }
-  .text-effect span:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .text-effect span:nth-child(2) {
-    animation-delay: 0.15s;
-  }
-  .text-effect span:nth-child(3) {
-    animation-delay: 0.3s;
-  }
-  .text-effect span:nth-child(4) {
-    animation-delay: 0.45s;
-  }
-  .text-effect span:nth-child(5) {
-    animation-delay: 0.6s;
-  }
-  .text-effect span:nth-child(6) {
-    animation-delay: 0.75s;
-  }
-  .text-effect span:nth-child(7) {
-    animation-delay: 0.9s;
-  }
-  .text-effect span:nth-child(8) {
-    animation-delay: 1.05s;
-  }
-  .text-effect span:nth-child(9) {
-    animation-delay: 1.2s;
-  }
-  .text-effect span:nth-child(10) {
-    animation-delay: 1.35s;
-  }
-  .text-effect span:nth-child(11) {
-    animation-delay: 1.5s;
-  }
-  .text-effect span:nth-child(12) {
-    animation-delay: 1.65s;
-  }
-  .text-effect span:nth-child(13) {
-    animation-delay: 1.85s;
-  }
-  .text-effect span:nth-child(14) {
-    animation-delay: 2.05s;
-  }
-  .text-effect span:nth-child(15) {
-    animation-delay: 2.2s;
-  }
-  .text-effect span:nth-child(16) {
-    animation-delay: 2.35s;
-  }
-  @keyframes animate {
-    to {
-      text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02),
-        0 0 0 rgba(23, 8, 156, 0), 0 0 0 rgba(255, 255, 255, 0),
-        0 0 0 rgba(101, 66, 230, 0), 0 0 0 rgba(255, 255, 255, 0),
-        0 0 0 rgba(255, 255, 255, 0);
-    }
-  }
+}
+.text-effect span {
+color: transparent;
+font-size: 36px;
+text-shadow: 0 0 2px rgba(204, 208, 212, 1), 0 15px 25px rgba(0, 0, 0, 0.9),
+    0 -2px 3px rgba(31, 69, 236, 0.1), 0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(30, 28, 177, 0.3), 0 3px 4px rgba(75, 92, 248, 0.2),
+    0 0 20px rgba(81, 79, 228, 0.45);
+display: inline-block;
+animation: animate 1s ease-in-out infinite alternate;
+}
+.text-effect span:nth-child(1) {
+animation-delay: 0s;
+}
+.text-effect span:nth-child(2) {
+animation-delay: 0.15s;
+}
+.text-effect span:nth-child(3) {
+animation-delay: 0.3s;
+}
+.text-effect span:nth-child(4) {
+animation-delay: 0.45s;
+}
+.text-effect span:nth-child(5) {
+animation-delay: 0.6s;
+}
+.text-effect span:nth-child(6) {
+animation-delay: 0.75s;
+}
+.text-effect span:nth-child(7) {
+animation-delay: 0.9s;
+}
+.text-effect span:nth-child(8) {
+animation-delay: 1.05s;
+}
+.text-effect span:nth-child(9) {
+animation-delay: 1.2s;
+}
+.text-effect span:nth-child(10) {
+animation-delay: 1.35s;
+}
+.text-effect span:nth-child(11) {
+animation-delay: 1.5s;
+}
+.text-effect span:nth-child(12) {
+animation-delay: 1.65s;
+}
+.text-effect span:nth-child(13) {
+animation-delay: 1.85s;
+}
+.text-effect span:nth-child(14) {
+animation-delay: 2.05s;
+}
+.text-effect span:nth-child(15) {
+animation-delay: 2.2s;
+}
+.text-effect span:nth-child(16) {
+animation-delay: 2.35s;
+}
+@keyframes animate {
+to {
+    text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02),
+    0 0 0 rgba(23, 8, 156, 0), 0 0 0 rgba(255, 255, 255, 0),
+    0 0 0 rgba(101, 66, 230, 0), 0 0 0 rgba(255, 255, 255, 0),
+    0 0 0 rgba(255, 255, 255, 0);
+}
+}
