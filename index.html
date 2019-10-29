@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Analog Clock</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="clock">
+        <div class="hour">
+            <div class="hr" id="hr"></div>
+        </div>
+        <div class="minutes">
+            <div class="min" id="min"></div>
+        </div>
+        <div class="seconds">
+            <div class="sec" id="sec"></div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
+        <h1 style="margin-left: 10px;"> ANALOG JAVASCRIPT CLOCK</h1>
+    </div> -->
+
+    <div class="containeer">
+        <div class="text-effect">
+            <span>A</span>
+            <span>N</span>
+            <span>A</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span>C</span>
+            <span>L</span>
+            <span>O</span>
+            <span>C</span>
+            <span>K</span>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const deg = 6;
+        const hr = document.querySelector('#hr');
+        const min = document.querySelector('#min');
+        const sec = document.querySelector('#sec');
+        setInterval(() => {
+            let day = new Date();
+            let hh = day.getHours() * 30;
+            let mm = day.getMinutes() * deg;
+            let ss = day.getSeconds() * deg;
+            hr.style.transform = `rotateZ(${hh+(mm/2)}deg)`;
+            min.style.transform = `rotateZ(${mm}deg)`;
+            sec.style.transform = `rotateZ(${ss}deg)`;
+        })
+    </script>
+    
+</body>
+</html>
